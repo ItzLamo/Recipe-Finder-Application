@@ -11,7 +11,7 @@ from typing import List, Dict, Any
 from dataclasses import dataclass
 
 # Configuration
-API_KEY = "18a2ecb585a34faf967085490068e5d5"
+API_KEY = "Insert_Yours"
 BASE_URL = "https://api.spoonacular.com"
 
 # UI Constants
