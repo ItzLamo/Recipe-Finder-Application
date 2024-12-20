@@ -1,7 +1,3 @@
-"""
-Recipe Finder Application - A comprehensive recipe search tool using the Spoonacular API.
-"""
-
 import json
 import tkinter as tk
 from tkinter import ttk, messagebox
@@ -14,7 +10,6 @@ from dataclasses import dataclass
 API_KEY = "Insert_Yours"
 BASE_URL = "https://api.spoonacular.com"
 
-# UI Constants
 WINDOW_SIZE = "800x600"
 PADDING = 20
 FONT_FAMILY = "Helvetica"
@@ -24,7 +19,6 @@ BACKGROUND_COLOR = "#F5F5F5"
 TEXT_COLOR = "#212121"
 ERROR_COLOR = "#F44336"
 
-# Fonts
 TITLE_FONT = (FONT_FAMILY, 24, "bold")
 HEADER_FONT = (FONT_FAMILY, 16, "bold")
 NORMAL_FONT = (FONT_FAMILY, 12)
